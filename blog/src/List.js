@@ -1,16 +1,26 @@
-import "./css/list.css"
-
+import "./css/List.css"
+import Content from './Card'
 function List() {
   return (
-    <div className="List">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="grid-container">
+      <div className="List">
+            <img src="./images/logo-com.png"/>
+      <img src="./test.png"/>
+        <ul>
+          <li>
+            <Content/>
+          </li>
+          <li>
+            <Content/>
+          </li>
+          <li>
+            <Content/>
+          </li>
+          <li>
+            <Content/>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

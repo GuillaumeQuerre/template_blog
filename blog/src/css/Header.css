@@ -1,0 +1,29 @@
+header {
+  position: absolute;
+  top: 0;
+  height: 130px;
+  width: 100%;
+  background-color: blue;
+}
+menu {
+  text-align: center;
+
+
+}
+menu li {
+  list-style:none;
+  display: inline-block;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+  margin: 15px;
+}
+.content-img {
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}

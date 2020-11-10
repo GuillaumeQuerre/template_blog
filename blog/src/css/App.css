@@ -1,7 +1,17 @@
 .App {
   text-align: center;
 }
+.page {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  height: 2000px;
+  background: url(http://api.thumbr.it/whitenoise-1200x2000.png?background=ebeae8ff&noise=626262&density=68&opacity=7);
+}
 
+main {
+  margin-top: 110px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,13 +36,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
