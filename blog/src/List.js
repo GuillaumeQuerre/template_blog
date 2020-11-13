@@ -37,13 +37,19 @@ const ItemsList = [
 ];
 function List() {
   return (
-    <div className="grid-container">
-      <div className="List">
-        <ul>
-          {ItemsList.map((i) => {
-          return <li>{i}</li>;
-          })}
-        </ul>
+    <div>
+      <div className="grid-container">
+        <div className="List">
+          <ul>
+            {ItemsList.map((i) => {
+            return <li>{i}</li>;
+            })}
+          </ul>
+        </div>
+      </div>
+      <div className="nextPrev">
+        <a>PRECEDENT</a>
+        <a>SUIVANT</a>
       </div>
     </div>
   );

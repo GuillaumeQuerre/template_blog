@@ -5,10 +5,10 @@ function Header() {
   return (
     <header>
       <img src="./images/logo-com.png"/>
-    <menu>
-    {ItemsMenu.map(i => {
-      return <li><a>{i}</a></li>;
-    })}
+      <menu>
+        {ItemsMenu.map(i => {
+         return <li><a>{i}</a></li>;
+        })}
       </menu>
     </header>
     );
